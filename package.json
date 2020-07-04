@@ -1,0 +1,11 @@
+{
+  "name": "express_test",
+  "version": "1.0.0",
+  "description": "Testing some things using express, http and nodemon",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dr4kk0nnys",
+  "license": "ISC"
+}
