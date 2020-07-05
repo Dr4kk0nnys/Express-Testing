@@ -4,8 +4,16 @@
   "description": "Testing some things using express, http and nodemon",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "dev": "nodemon main.js"
   },
   "author": "Dr4kk0nnys",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
